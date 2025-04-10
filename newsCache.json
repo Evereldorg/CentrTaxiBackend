@@ -1,0 +1,502 @@
+{
+  "response": {
+    "count": 7,
+    "items": [
+      {
+        "inner_type": "wall_wallpost",
+        "donut": {
+          "is_donut": false
+        },
+        "comments": {
+          "count": 0
+        },
+        "marked_as_ads": 0,
+        "hash": "395VO6wwKqH15RfEpw",
+        "type": "post",
+        "push_subscription": {
+          "is_subscribed": false
+        },
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "album_id": -7,
+              "date": 1744044686,
+              "id": 457239023,
+              "owner_id": -230030577,
+              "access_key": "9bc69d7f3207bbce91",
+              "post_id": 7,
+              "sizes": [
+                {
+                  "height": 42,
+                  "type": "s",
+                  "width": 75,
+                  "url": "https://sun9-47.userapi.com/s/v1/ig2/UTAdQxe4vB7HH1u89VSFP-3ZxqtWbdxvh7Fju0yj5uJ3O_Ej_1YTO3AcMJ8d-2L8jXEN-Vk11xJH93-k4xDuGWxF.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=75x42"
+                },
+                {
+                  "height": 73,
+                  "type": "m",
+                  "width": 130,
+                  "url": "https://sun9-47.userapi.com/s/v1/ig2/UTAdQxe4vB7HH1u89VSFP-3ZxqtWbdxvh7Fju0yj5uJ3O_Ej_1YTO3AcMJ8d-2L8jXEN-Vk11xJH93-k4xDuGWxF.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=130x73"
+                },
+                {
+                  "height": 168,
+                  "type": "x",
+                  "width": 300,
+                  "url": "https://sun9-47.userapi.com/s/v1/ig2/UTAdQxe4vB7HH1u89VSFP-3ZxqtWbdxvh7Fju0yj5uJ3O_Ej_1YTO3AcMJ8d-2L8jXEN-Vk11xJH93-k4xDuGWxF.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                },
+                {
+                  "height": 87,
+                  "type": "o",
+                  "width": 130,
+                  "url": "https://sun9-47.userapi.com/s/v1/ig2/UTAdQxe4vB7HH1u89VSFP-3ZxqtWbdxvh7Fju0yj5uJ3O_Ej_1YTO3AcMJ8d-2L8jXEN-Vk11xJH93-k4xDuGWxF.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=130x87"
+                },
+                {
+                  "height": 133,
+                  "type": "p",
+                  "width": 200,
+                  "url": "https://sun9-47.userapi.com/s/v1/ig2/UTAdQxe4vB7HH1u89VSFP-3ZxqtWbdxvh7Fju0yj5uJ3O_Ej_1YTO3AcMJ8d-2L8jXEN-Vk11xJH93-k4xDuGWxF.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=200x133"
+                },
+                {
+                  "height": 168,
+                  "type": "q",
+                  "width": 300,
+                  "url": "https://sun9-47.userapi.com/s/v1/ig2/UTAdQxe4vB7HH1u89VSFP-3ZxqtWbdxvh7Fju0yj5uJ3O_Ej_1YTO3AcMJ8d-2L8jXEN-Vk11xJH93-k4xDuGWxF.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                },
+                {
+                  "height": 168,
+                  "type": "r",
+                  "width": 300,
+                  "url": "https://sun9-47.userapi.com/s/v1/ig2/UTAdQxe4vB7HH1u89VSFP-3ZxqtWbdxvh7Fju0yj5uJ3O_Ej_1YTO3AcMJ8d-2L8jXEN-Vk11xJH93-k4xDuGWxF.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                }
+              ],
+              "text": "",
+              "user_id": 100,
+              "web_view_token": "5572d1f649618d6f09",
+              "has_tags": false,
+              "orig_photo": {
+                "height": 168,
+                "type": "base",
+                "url": "https://sun9-47.userapi.com/s/v1/ig2/UTAdQxe4vB7HH1u89VSFP-3ZxqtWbdxvh7Fju0yj5uJ3O_Ej_1YTO3AcMJ8d-2L8jXEN-Vk11xJH93-k4xDuGWxF.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu",
+                "width": 300
+              }
+            }
+          }
+        ],
+        "date": 1744044686,
+        "from_id": -230030577,
+        "id": 7,
+        "likes": {
+          "can_like": 0,
+          "count": 1,
+          "user_likes": 0
+        },
+        "owner_id": -230030577,
+        "post_type": "post",
+        "reposts": {
+          "count": 0
+        },
+        "text": "В марте таксопарк обновил автопарк новыми, более экономичными автомобилями, что позволит снизить расходы на топливо. Также, введена программа лояльности для постоянных клиентов, предлагающая скидки на поездки. Кроме того, расширена зона обслуживания, теперь доступны поездки в отдаленные районы города.\n\nБольше: https://sinonim.org/gen#res",
+        "views": {
+          "count": 4
+        }
+      },
+      {
+        "inner_type": "wall_wallpost",
+        "donut": {
+          "is_donut": false
+        },
+        "comments": {
+          "count": 0
+        },
+        "marked_as_ads": 0,
+        "hash": "Rfz1B59XA0UAx2kieA",
+        "type": "post",
+        "push_subscription": {
+          "is_subscribed": false
+        },
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "album_id": -7,
+              "date": 1744044651,
+              "id": 457239022,
+              "owner_id": -230030577,
+              "access_key": "320012c6befecee01f",
+              "post_id": 6,
+              "sizes": [
+                {
+                  "height": 50,
+                  "type": "s",
+                  "width": 75,
+                  "url": "https://sun9-49.userapi.com/s/v1/ig2/8YEOzi6nwTMl7wKZjWRu_S6W3PkaQsLuJATm2cTJZeOyIG2cLNYzGKMAyJFtBzA6wNh1zT6aAXk-irF8pb7-Uvnk.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=75x50"
+                },
+                {
+                  "height": 86,
+                  "type": "m",
+                  "width": 130,
+                  "url": "https://sun9-49.userapi.com/s/v1/ig2/8YEOzi6nwTMl7wKZjWRu_S6W3PkaQsLuJATm2cTJZeOyIG2cLNYzGKMAyJFtBzA6wNh1zT6aAXk-irF8pb7-Uvnk.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=130x86"
+                },
+                {
+                  "height": 183,
+                  "type": "x",
+                  "width": 275,
+                  "url": "https://sun9-49.userapi.com/s/v1/ig2/8YEOzi6nwTMl7wKZjWRu_S6W3PkaQsLuJATm2cTJZeOyIG2cLNYzGKMAyJFtBzA6wNh1zT6aAXk-irF8pb7-Uvnk.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=275x183"
+                },
+                {
+                  "height": 87,
+                  "type": "o",
+                  "width": 130,
+                  "url": "https://sun9-49.userapi.com/s/v1/ig2/8YEOzi6nwTMl7wKZjWRu_S6W3PkaQsLuJATm2cTJZeOyIG2cLNYzGKMAyJFtBzA6wNh1zT6aAXk-irF8pb7-Uvnk.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=130x87"
+                },
+                {
+                  "height": 133,
+                  "type": "p",
+                  "width": 200,
+                  "url": "https://sun9-49.userapi.com/s/v1/ig2/8YEOzi6nwTMl7wKZjWRu_S6W3PkaQsLuJATm2cTJZeOyIG2cLNYzGKMAyJFtBzA6wNh1zT6aAXk-irF8pb7-Uvnk.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=200x133"
+                },
+                {
+                  "height": 183,
+                  "type": "q",
+                  "width": 275,
+                  "url": "https://sun9-49.userapi.com/s/v1/ig2/8YEOzi6nwTMl7wKZjWRu_S6W3PkaQsLuJATm2cTJZeOyIG2cLNYzGKMAyJFtBzA6wNh1zT6aAXk-irF8pb7-Uvnk.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=275x183"
+                },
+                {
+                  "height": 183,
+                  "type": "r",
+                  "width": 275,
+                  "url": "https://sun9-49.userapi.com/s/v1/ig2/8YEOzi6nwTMl7wKZjWRu_S6W3PkaQsLuJATm2cTJZeOyIG2cLNYzGKMAyJFtBzA6wNh1zT6aAXk-irF8pb7-Uvnk.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=275x183"
+                }
+              ],
+              "text": "",
+              "user_id": 100,
+              "web_view_token": "6fe18cff9e54a1f406",
+              "has_tags": false,
+              "orig_photo": {
+                "height": 183,
+                "type": "base",
+                "url": "https://sun9-49.userapi.com/s/v1/ig2/8YEOzi6nwTMl7wKZjWRu_S6W3PkaQsLuJATm2cTJZeOyIG2cLNYzGKMAyJFtBzA6wNh1zT6aAXk-irF8pb7-Uvnk.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu",
+                "width": 275
+              }
+            }
+          }
+        ],
+        "date": 1744044651,
+        "from_id": -230030577,
+        "id": 6,
+        "likes": {
+          "can_like": 0,
+          "count": 0,
+          "user_likes": 0
+        },
+        "owner_id": -230030577,
+        "post_type": "post",
+        "reposts": {
+          "count": 0
+        },
+        "text": "Сервис быстрых платежей (СБП) активно внедряется в таксопарки, предлагая удобный и выгодный способ оплаты для водителей и пассажиров. Таксопарки, использующие СБП, получают возможность моментально принимать оплату за поездки напрямую на свой расчетный счет, минуя посредников и снижая комиссии.\n\nДля водителей это означает более быстрый доступ к заработанным средствам и упрощение процесса взаиморасчетов с таксопарком. Пассажиры, в свою очередь, могут оплачивать поездки с помощью QR-кода или через банковское приложение, что делает процесс оплаты более удобным и безопасным.\n\nВнедрение СБП в таксопарках способствует повышению прозрачности финансовых операций, снижению издержек и улучшению клиентского сервиса. Это современное решение, которое делает поездки на такси более доступными и удобными для всех участников рынка.\n\nБольше: https://sinonim.org/gen#res",
+        "views": {
+          "count": 2
+        }
+      },
+      {
+        "inner_type": "wall_wallpost",
+        "donut": {
+          "is_donut": false
+        },
+        "comments": {
+          "count": 0
+        },
+        "marked_as_ads": 0,
+        "hash": "PO43hYf2I1ZO5FDxAw",
+        "type": "post",
+        "push_subscription": {
+          "is_subscribed": false
+        },
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "album_id": -7,
+              "date": 1744044616,
+              "id": 457239021,
+              "owner_id": -230030577,
+              "access_key": "20f892bc5bc23def72",
+              "post_id": 5,
+              "sizes": [
+                {
+                  "height": 42,
+                  "type": "s",
+                  "width": 75,
+                  "url": "https://sun9-37.userapi.com/s/v1/ig2/-xNQFMQKe37Z6wqW_fz661YG9q88UKhumPXk9ZTD81UbP9BRpgurDYVVOUCrTjjv98gCb6YO_oTzR1h6D-A0YFPm.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=75x42"
+                },
+                {
+                  "height": 73,
+                  "type": "m",
+                  "width": 130,
+                  "url": "https://sun9-37.userapi.com/s/v1/ig2/-xNQFMQKe37Z6wqW_fz661YG9q88UKhumPXk9ZTD81UbP9BRpgurDYVVOUCrTjjv98gCb6YO_oTzR1h6D-A0YFPm.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=130x73"
+                },
+                {
+                  "height": 168,
+                  "type": "x",
+                  "width": 300,
+                  "url": "https://sun9-37.userapi.com/s/v1/ig2/-xNQFMQKe37Z6wqW_fz661YG9q88UKhumPXk9ZTD81UbP9BRpgurDYVVOUCrTjjv98gCb6YO_oTzR1h6D-A0YFPm.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                },
+                {
+                  "height": 87,
+                  "type": "o",
+                  "width": 130,
+                  "url": "https://sun9-37.userapi.com/s/v1/ig2/-xNQFMQKe37Z6wqW_fz661YG9q88UKhumPXk9ZTD81UbP9BRpgurDYVVOUCrTjjv98gCb6YO_oTzR1h6D-A0YFPm.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=130x87"
+                },
+                {
+                  "height": 133,
+                  "type": "p",
+                  "width": 200,
+                  "url": "https://sun9-37.userapi.com/s/v1/ig2/-xNQFMQKe37Z6wqW_fz661YG9q88UKhumPXk9ZTD81UbP9BRpgurDYVVOUCrTjjv98gCb6YO_oTzR1h6D-A0YFPm.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=200x133"
+                },
+                {
+                  "height": 168,
+                  "type": "q",
+                  "width": 300,
+                  "url": "https://sun9-37.userapi.com/s/v1/ig2/-xNQFMQKe37Z6wqW_fz661YG9q88UKhumPXk9ZTD81UbP9BRpgurDYVVOUCrTjjv98gCb6YO_oTzR1h6D-A0YFPm.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                },
+                {
+                  "height": 168,
+                  "type": "r",
+                  "width": 300,
+                  "url": "https://sun9-37.userapi.com/s/v1/ig2/-xNQFMQKe37Z6wqW_fz661YG9q88UKhumPXk9ZTD81UbP9BRpgurDYVVOUCrTjjv98gCb6YO_oTzR1h6D-A0YFPm.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                }
+              ],
+              "text": "",
+              "user_id": 100,
+              "web_view_token": "0b07cd13d51714c121",
+              "has_tags": false,
+              "orig_photo": {
+                "height": 168,
+                "type": "base",
+                "url": "https://sun9-37.userapi.com/s/v1/ig2/-xNQFMQKe37Z6wqW_fz661YG9q88UKhumPXk9ZTD81UbP9BRpgurDYVVOUCrTjjv98gCb6YO_oTzR1h6D-A0YFPm.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu",
+                "width": 300
+              }
+            }
+          }
+        ],
+        "date": 1744044616,
+        "from_id": -230030577,
+        "id": 5,
+        "likes": {
+          "can_like": 0,
+          "count": 0,
+          "user_likes": 0
+        },
+        "owner_id": -230030577,
+        "post_type": "post",
+        "reposts": {
+          "count": 0
+        },
+        "text": "Такси - это не просто средство передвижения, это рабочий инструмент, кормилец для водителя. Поэтому простой машины из-за поломки - это серьезный удар по бюджету. Ремонт такси требует особого подхода: он должен быть быстрым, качественным и, по возможности, недорогим.\n\nВажно найти автосервис, специализирующийся на ремонте коммерческого транспорта. Такие сервисы, как правило, имеют опыт работы с автомобилями, подвергающимися интенсивной эксплуатации, и знают слабые места конкретных моделей, используемых в такси.\n\nЧто чаще всего ломается в такси? Подвеска, двигатель, тормозная система - все эти узлы испытывают повышенную нагрузку. Поэтому регулярное техническое обслуживание, включающее замену масла, фильтров, тормозных колодок, - это не роскошь, а необходимость.\n\nПри выборе автосервиса стоит обратить внимание на наличие современного оборудования для диагностики и ремонта, квалификацию персонала и наличие запчастей. Важно, чтобы сервис мог предложить как оригинальные запчасти, так и качественные аналоги, позволяющие сэкономить без ущерба для надежности.\n\nПомните, своевременное обращение в автосервис и качественный ремонт - это залог бесперебойной работы вашего такси и, как следствие, стабильного дохода. Не экономьте на безопасности и надежности, ведь от этого зависит не только ваш заработок, но и безопасность пассажиров.\n\nБольше: https://sinonim.org/gen#res",
+        "views": {
+          "count": 2
+        }
+      },
+      {
+        "inner_type": "wall_wallpost",
+        "donut": {
+          "is_donut": false
+        },
+        "comments": {
+          "count": 0
+        },
+        "marked_as_ads": 0,
+        "hash": "vKp-AKoB_bCPXxgpJw",
+        "type": "post",
+        "push_subscription": {
+          "is_subscribed": false
+        },
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "album_id": -7,
+              "date": 1744044550,
+              "id": 457239020,
+              "owner_id": -230030577,
+              "access_key": "1ea166418ec56d08f7",
+              "post_id": 4,
+              "sizes": [
+                {
+                  "height": 42,
+                  "type": "s",
+                  "width": 75,
+                  "url": "https://sun9-74.userapi.com/s/v1/ig2/N4WucNdK5tqedbUoRNIBi2AnFY8ybY7DeZXhQ7rPY9dQPW_Byi88LvL9JqnMA-b35pZ8SV92cpW6E6qFpctpMAhl.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=75x42"
+                },
+                {
+                  "height": 73,
+                  "type": "m",
+                  "width": 130,
+                  "url": "https://sun9-74.userapi.com/s/v1/ig2/N4WucNdK5tqedbUoRNIBi2AnFY8ybY7DeZXhQ7rPY9dQPW_Byi88LvL9JqnMA-b35pZ8SV92cpW6E6qFpctpMAhl.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=130x73"
+                },
+                {
+                  "height": 168,
+                  "type": "x",
+                  "width": 300,
+                  "url": "https://sun9-74.userapi.com/s/v1/ig2/N4WucNdK5tqedbUoRNIBi2AnFY8ybY7DeZXhQ7rPY9dQPW_Byi88LvL9JqnMA-b35pZ8SV92cpW6E6qFpctpMAhl.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                },
+                {
+                  "height": 87,
+                  "type": "o",
+                  "width": 130,
+                  "url": "https://sun9-74.userapi.com/s/v1/ig2/N4WucNdK5tqedbUoRNIBi2AnFY8ybY7DeZXhQ7rPY9dQPW_Byi88LvL9JqnMA-b35pZ8SV92cpW6E6qFpctpMAhl.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=130x87"
+                },
+                {
+                  "height": 133,
+                  "type": "p",
+                  "width": 200,
+                  "url": "https://sun9-74.userapi.com/s/v1/ig2/N4WucNdK5tqedbUoRNIBi2AnFY8ybY7DeZXhQ7rPY9dQPW_Byi88LvL9JqnMA-b35pZ8SV92cpW6E6qFpctpMAhl.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=200x133"
+                },
+                {
+                  "height": 168,
+                  "type": "q",
+                  "width": 300,
+                  "url": "https://sun9-74.userapi.com/s/v1/ig2/N4WucNdK5tqedbUoRNIBi2AnFY8ybY7DeZXhQ7rPY9dQPW_Byi88LvL9JqnMA-b35pZ8SV92cpW6E6qFpctpMAhl.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                },
+                {
+                  "height": 168,
+                  "type": "r",
+                  "width": 300,
+                  "url": "https://sun9-74.userapi.com/s/v1/ig2/N4WucNdK5tqedbUoRNIBi2AnFY8ybY7DeZXhQ7rPY9dQPW_Byi88LvL9JqnMA-b35pZ8SV92cpW6E6qFpctpMAhl.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu&cs=300x168"
+                }
+              ],
+              "text": "",
+              "user_id": 100,
+              "web_view_token": "b672a54a524ca4de6d",
+              "has_tags": false,
+              "orig_photo": {
+                "height": 168,
+                "type": "base",
+                "url": "https://sun9-74.userapi.com/s/v1/ig2/N4WucNdK5tqedbUoRNIBi2AnFY8ybY7DeZXhQ7rPY9dQPW_Byi88LvL9JqnMA-b35pZ8SV92cpW6E6qFpctpMAhl.jpg?quality=95&as=32x18,48x27,72x40,108x60,160x90,240x134,300x168&from=bu",
+                "width": 300
+              }
+            }
+          }
+        ],
+        "date": 1744044551,
+        "from_id": -230030577,
+        "id": 4,
+        "likes": {
+          "can_like": 0,
+          "count": 0,
+          "user_likes": 0
+        },
+        "owner_id": -230030577,
+        "post_type": "post",
+        "reposts": {
+          "count": 0
+        },
+        "text": "В Санкт-Петербурге таксисты – неотъемлемая часть городского пейзажа. Они снуют по узким улочкам и широким проспектам, готовые доставить вас в любую точку города. От вежливых и разговорчивых до молчаливых и сосредоточенных, каждый водитель – это отдельная история.\n\nПоездка на такси в Петербурге – это не просто способ добраться из пункта А в пункт Б. Это возможность услышать местные байки, узнать о скрытых достопримечательностях и почувствовать ритм города. Иногда это шанс попрактиковать свой русский, а иногда – просто насладиться тишиной и видом из окна. В любом случае, таксисты в Петербурге – это часть души города, и их вклад в его жизнь неоценим.\n\nБольше: https://sinonim.org/gen#res",
+        "views": {
+          "count": 2
+        }
+      },
+      {
+        "inner_type": "wall_wallpost",
+        "donut": {
+          "is_donut": false
+        },
+        "comments": {
+          "count": 0
+        },
+        "marked_as_ads": 0,
+        "hash": "VLxBnkAp8AwEqtcziA",
+        "type": "post",
+        "push_subscription": {
+          "is_subscribed": false
+        },
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "album_id": -7,
+              "date": 1744044521,
+              "id": 457239019,
+              "owner_id": -230030577,
+              "access_key": "07735bdfba35d62525",
+              "post_id": 3,
+              "sizes": [
+                {
+                  "height": 50,
+                  "type": "s",
+                  "width": 75,
+                  "url": "https://sun9-29.userapi.com/s/v1/ig2/nPFyJpoeK3q_EScyOopeMvvcLkkWq-FlWIsZUPHMmrojsuCWgtghlLE8wXTS69MxDtHipcP818_B0BUYYWQbhfhK.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=75x50"
+                },
+                {
+                  "height": 86,
+                  "type": "m",
+                  "width": 130,
+                  "url": "https://sun9-29.userapi.com/s/v1/ig2/nPFyJpoeK3q_EScyOopeMvvcLkkWq-FlWIsZUPHMmrojsuCWgtghlLE8wXTS69MxDtHipcP818_B0BUYYWQbhfhK.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=130x86"
+                },
+                {
+                  "height": 183,
+                  "type": "x",
+                  "width": 275,
+                  "url": "https://sun9-29.userapi.com/s/v1/ig2/nPFyJpoeK3q_EScyOopeMvvcLkkWq-FlWIsZUPHMmrojsuCWgtghlLE8wXTS69MxDtHipcP818_B0BUYYWQbhfhK.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=275x183"
+                },
+                {
+                  "height": 87,
+                  "type": "o",
+                  "width": 130,
+                  "url": "https://sun9-29.userapi.com/s/v1/ig2/nPFyJpoeK3q_EScyOopeMvvcLkkWq-FlWIsZUPHMmrojsuCWgtghlLE8wXTS69MxDtHipcP818_B0BUYYWQbhfhK.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=130x87"
+                },
+                {
+                  "height": 133,
+                  "type": "p",
+                  "width": 200,
+                  "url": "https://sun9-29.userapi.com/s/v1/ig2/nPFyJpoeK3q_EScyOopeMvvcLkkWq-FlWIsZUPHMmrojsuCWgtghlLE8wXTS69MxDtHipcP818_B0BUYYWQbhfhK.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=200x133"
+                },
+                {
+                  "height": 183,
+                  "type": "q",
+                  "width": 275,
+                  "url": "https://sun9-29.userapi.com/s/v1/ig2/nPFyJpoeK3q_EScyOopeMvvcLkkWq-FlWIsZUPHMmrojsuCWgtghlLE8wXTS69MxDtHipcP818_B0BUYYWQbhfhK.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=275x183"
+                },
+                {
+                  "height": 183,
+                  "type": "r",
+                  "width": 275,
+                  "url": "https://sun9-29.userapi.com/s/v1/ig2/nPFyJpoeK3q_EScyOopeMvvcLkkWq-FlWIsZUPHMmrojsuCWgtghlLE8wXTS69MxDtHipcP818_B0BUYYWQbhfhK.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu&cs=275x183"
+                }
+              ],
+              "text": "",
+              "user_id": 100,
+              "web_view_token": "16ba591c1c44df528c",
+              "has_tags": false,
+              "orig_photo": {
+                "height": 183,
+                "type": "base",
+                "url": "https://sun9-29.userapi.com/s/v1/ig2/nPFyJpoeK3q_EScyOopeMvvcLkkWq-FlWIsZUPHMmrojsuCWgtghlLE8wXTS69MxDtHipcP818_B0BUYYWQbhfhK.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x106,240x160,275x183&from=bu",
+                "width": 275
+              }
+            }
+          }
+        ],
+        "date": 1744044521,
+        "from_id": -230030577,
+        "id": 3,
+        "likes": {
+          "can_like": 0,
+          "count": 0,
+          "user_likes": 0
+        },
+        "owner_id": -230030577,
+        "post_type": "post",
+        "reposts": {
+          "count": 0
+        },
+        "text": "Водители такси — незаметные герои городских улиц. Они знают каждый переулок, готовы привезти вас в любую точку города в любое время суток. Зачастую, это люди с интересными историями и богатым жизненным опытом. Они выслушают, поддержат беседу или просто довезут в тишине, в зависимости от вашего настроения. Их работа требует внимательности, терпения и умения ориентироваться в быстро меняющейся обстановке. Именно благодаря им мы можем быстро и комфортно добраться до нужного места.\n\nБольше: https://sinonim.org/gen#res",
+        "views": {
+          "count": 2
+        }
+      }
+    ]
+  }
+}
