@@ -8,7 +8,15 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://centrtaxifrontend-production.up.railway.app'
+  ],
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true
+}));
 app.use(express.json());
 
 // Роут для новостей
@@ -25,18 +33,9 @@ app.get("/api/news", async (req, res) => {
   }
 });
 
-app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://centrtaxifrontend-production.up.railway.app'
-  ],
-  methods: ['GET', 'POST', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
-}));
-
-// Добавьте обработку OPTIONS-запросов
+// Обработка OPTIONS-запросов
 app.options('*', cors());
+
 // Статические файлы (если нужно)
 app.use(express.static(path.join(__dirname, 'public')));
 
