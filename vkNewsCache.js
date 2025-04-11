@@ -30,7 +30,7 @@ async function fetchVKNews() {
       count: '5',
       access_token: ACCESS_TOKEN,
       v: API_VERSION,
-      filter: 'owner'
+      filter: 'owner',
       offset: Math.floor(Math.random() * 100)
     });
 
