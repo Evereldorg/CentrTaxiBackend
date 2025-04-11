@@ -1,56 +1,67 @@
-require("dotenv").config();
-const express = require("express");
-const cors = require("cors");
-const path = require("path");
-const { getNews } = require("./vkNewsCache");
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+const path = require('path');
+const { getNews } = require('./vkNewsCache');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Middleware
-app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://centrtaxifrontend-production.up.railway.app'
-  ],
-  methods: ['GET', 'POST', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
-}));
+// Enhanced CORS configuration
+const allowedOrigins = [
+  'https://centrtaxifrontend-production.up.railway.app',
+  'http://localhost:5173'
+];
+
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
+  }
+  
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+  
+  next();
+});
+
 app.use(express.json());
 
-// Роут для новостей
-app.get("/api/news", async (req, res) => {
+// API Routes
+app.get('/api/news', async (req, res) => {
   try {
+    console.log('Fetching news...');
     const news = await getNews();
     res.json(news);
   } catch (error) {
-    console.error("Ошибка получения новостей:", error);
+    console.error('Error fetching news:', error);
     res.status(500).json({ 
-      error: "Не удалось загрузить новости",
+      error: 'Failed to load news',
       details: error.message 
     });
   }
 });
 
-// Обработка OPTIONS-запросов
-app.options('*', cors());
-
-// Статические файлы (если нужно)
-app.use(express.static(path.join(__dirname, 'public')));
-
-// Обработка 404
-app.use((req, res) => {
-  res.status(404).json({ error: "Not Found" });
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
-// Обработка ошибок
+// Error handling
+app.use((req, res) => {
+  res.status(404).json({ error: 'Not Found' });
+});
+
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).json({ error: "Internal Server Error" });
+  res.status(500).json({ error: 'Internal Server Error' });
 });
 
-// Запуск сервера
 app.listen(PORT, () => {
-  console.log(`🚀 Сервер запущен: http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
+  console.log('Allowed CORS origins:', allowedOrigins);
 });
