@@ -1,7 +1,7 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const fs = require('fs');
 
-const CACHE_TTL = 15 * 60 * 1000;
+const CACHE_TTL = 1 * 60 * 1000;
 let cachedData = null;
 let lastFetched = 0;
 
@@ -31,6 +31,7 @@ async function fetchVKNews() {
       access_token: ACCESS_TOKEN,
       v: API_VERSION,
       filter: 'owner'
+      offset: Math.floor(Math.random() * 100)
     });
 
     const response = await fetch(`${VK_API_URL}?${params}`);
