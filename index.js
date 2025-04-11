@@ -26,9 +26,17 @@ app.get("/api/news", async (req, res) => {
 });
 
 app.use(cors({
-  origin: 'http://localhost:5173', // Укажите ваш фронтенд-адрес
+  origin: [
+    'http://localhost:5173',
+    'https://centrtaxifrontend-production.up.railway.app'
+  ],
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
+
+// Добавьте обработку OPTIONS-запросов
+app.options('*', cors());
 // Статические файлы (если нужно)
 app.use(express.static(path.join(__dirname, 'public')));
 
