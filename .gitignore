@@ -1,0 +1,24 @@
+# Файлы окружения (никогда не коммитьте секреты!)
+.env
+.env.local
+
+# Папка зависимостей (загружается через npm install)
+node_modules/
+
+# Логи и временные файлы
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Файлы IDE (если используете VS Code, WebStorm и т. д.)
+.vscode/
+.idea/
+
+# Автогенерируемые файлы
+dist/
+build/
+coverage/
+
+# Кеш
+.newsCache.json  # (если у вас есть такой).env
