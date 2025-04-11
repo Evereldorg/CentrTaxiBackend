@@ -6,7 +6,7 @@ let cachedData = null;
 let lastFetched = 0;
 
 const VK_API_URL = "https://api.vk.com/method/wall.get";
-const GROUP_ID = process.env.VK_GROUP_ID || "-229422677";
+const GROUP_ID = process.env.VK_GROUP_ID || "-197700721";
 const ACCESS_TOKEN = process.env.VK_SERVICE_TOKEN;
 const API_VERSION = process.env.VK_API_VERSION || "5.199";
 
