@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3001;
 
 // Enhanced CORS configuration
 const allowedOrigins = [
+  'https://center-taxi.ru',
   'https://centrtaxifrontend-production.up.railway.app',
   'http://localhost:5173'
 ];
