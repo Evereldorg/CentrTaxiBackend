@@ -1,20 +1,26 @@
 name: Deploy Backend
-on:
-  push:
-    branches: [main]
+on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Deploy and Restart
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
+      
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_HOST }} $(ssh-keyscan -t ed25519 ${{ secrets.SSH_HOST }} 2>/dev/null)" >> ~/.ssh/known_hosts
+
+      - name: Deploy
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
             cd /var/www/backend
+            git reset --hard
+            git clean -fd
             git pull origin main
             docker-compose down
             docker-compose up -d --build
+            docker system prune -f
+          "

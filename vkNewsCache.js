@@ -27,6 +27,10 @@ function processText(text) {
   return processed.trim();
 }
 
+function hasPhotoAttachment(attachments) {
+  return attachments && attachments.some(a => a.type === 'photo');
+}
+
 async function fetchVKNews() {
   try {
     const params = new URLSearchParams({
@@ -42,14 +46,17 @@ async function fetchVKNews() {
 
     if (data.response?.items) {
       data.response.items = data.response.items
-        .filter(post => !post.is_pinned)
-        .filter(post => post.text && post.text.trim().length > 30)
+        .filter(post => !post.is_pinned) // Удаляем закрепленные посты
+        .filter(post => post.text && post.text.trim().length > 30) // Только посты с текстом
+        .filter(post => hasPhotoAttachment(post.attachments)) // Только посты с фото
         .map(post => ({
           ...post,
+          // Оставляем только фото-вложения
+          attachments: post.attachments?.filter(a => a.type === 'photo'),
           text: processText(post.text),
           rawText: post.text // Сохраняем оригинальный текст
         }))
-        .slice(0, 5);
+        .slice(0, 5); // Берем первые 5 постов
     }
 
     return data;
