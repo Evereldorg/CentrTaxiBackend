@@ -1,5 +1,8 @@
 name: Deploy Backend
-on: [push]
+on:
+  push:
+    branches: [ master ]
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -13,20 +16,26 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           echo "${{ secrets.SSH_HOST }} $(ssh-keyscan -t ed25519 ${{ secrets.SSH_HOST }} 2>/dev/null)" >> ~/.ssh/known_hosts
 
-      - name: Install Docker Compose on Server
+      - name: Verify Docker Installation
         run: |
-          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
-            sudo apt-get update
-            sudo apt-get install -y docker-compose-plugin
-            sudo ln -s /usr/libexec/docker/cli-plugins/docker-compose /usr/bin/docker-compose
-          EOF
+          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
+            docker --version || echo 'Docker not installed'
+            docker compose version || echo 'Docker Compose not installed'
+          "
 
-      - name: Deploy and Restart
+      - name: Deploy Application
         run: |
-          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
+          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
             cd /var/www/backend
             git fetch origin
             git reset --hard origin/master
             docker compose down
             docker compose up -d --build
-          EOF
+          "
+
+      - name: Verify Deployment
+        run: |
+          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
+            docker ps
+            curl -I localhost:3001 || echo 'API not responding'
+          "
