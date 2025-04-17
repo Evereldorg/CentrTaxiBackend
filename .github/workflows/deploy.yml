@@ -16,7 +16,7 @@ jobs:
       - name: Deploy Step 1 - Git Update
         run: |
           ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-            "cd /var/www/backend && git fetch origin && git reset --hard origin/main"
+            "cd /var/www/backend && git fetch origin && git reset --hard origin/master"
 
       - name: Deploy Step 2 - Docker Restart
         run: |
