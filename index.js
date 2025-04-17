@@ -7,7 +7,7 @@ const { getNews } = require('./vkNewsCache');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Enhanced CORS configuration
+// Enhanced CORS configurations
 const allowedOrigins = [
   'https://center-taxi.ru',
   'https://centrtaxifrontend-production.up.railway.app',
